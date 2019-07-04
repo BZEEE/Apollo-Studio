@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Session : MonoBehaviour
 {
+    private List<User> users = new List<User>();
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,9 @@ public class Session : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public User GetUsersInSession() {
+        return users;
     }
 }

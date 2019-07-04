@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InstrumentInterface : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+interface InstrumentInterface {
+    void MoveUpAnOctave();
+    void MoveDownAnOctave();
+    void PlayAChord();
+    void PlayBChord();
+    void PlayCChord();
+    void PlayDChord();
+    void PlayEChord();
+    void PlayFChord();
+    void PlayGChord();
 }
