@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-interface InstrumentInterface {
+public interface InstrumentInterface {
     void MoveUpAnOctave();
     void MoveDownAnOctave();
     void PlayAChord();

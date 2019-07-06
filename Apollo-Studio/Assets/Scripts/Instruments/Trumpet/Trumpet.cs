@@ -2,17 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trumpet : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
+using Instrument;
+using InstrumentInterface;
+
+public class Trumpet : Instrument, InstrumentInterface {
+    void MoveUpAnOctave() {
+
+    }
+    void MoveDownAnOctave() {
+
+    }
+    void PlayAChord() {
+
+    }
+    void PlayBChord() {
+
+    }
+    void PlayCChord() {
+
+    }
+    void PlayDChord() {
         
     }
+    void PlayEChord() {
 
-    // Update is called once per frame
-    void Update()
-    {
+    }
+    void PlayFChord() {
+
+    }
+    void PlayGChord() {
         
     }
 }

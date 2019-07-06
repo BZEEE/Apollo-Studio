@@ -2,17 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Flute : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
+using Instrument;
+using InstrumentInterface;
+
+public class Flute : Instrument, InstrumentInterface {
+    void MoveUpAnOctave() {
+
+    }
+    void MoveDownAnOctave() {
+
+    }
+    void PlayAChord() {
+
+    }
+    void PlayBChord() {
         
     }
+    void PlayCChord() {
 
-    // Update is called once per frame
-    void Update()
-    {
+    }
+    void PlayDChord() {
+        
+    }
+    void PlayEChord() {
+
+    }
+    void PlayFChord() {
+
+    }
+    void PlayGChord() {
         
     }
 }
