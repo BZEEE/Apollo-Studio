@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using Session;
+using SessionNS;
 
-public class SessionController : MonoBehaviour
-{
+public class SessionController : MonoBehaviour {
     public Session session;
     // Start is called before the first frame update
     void Start()

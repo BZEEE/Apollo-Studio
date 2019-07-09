@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using Instrument;
-using InstrumentInterface;
+using InstrumentNS;
+using InstrumentInterfaceNS;
 
 public class Guitar : Instrument, InstrumentInterface {
     void MoveUpAnOctave() {
