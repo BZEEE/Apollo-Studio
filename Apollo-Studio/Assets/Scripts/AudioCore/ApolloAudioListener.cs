@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ApolloAudioListener {
-    private ApolloAudioListener audioListener;
+    private AudioListener audioListener;
 
-    public ApolloAudioSource() {
-        audioSource = new AudioListener();
+    public ApolloAudioListener() {
+        audioListener = new AudioListener();
     }
 
-    public AudioSource GetAudioListener() {
+    public AudioListener GetAudioListener() {
         return audioListener;
     }
 }

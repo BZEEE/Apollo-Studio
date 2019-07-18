@@ -16,23 +16,23 @@ public class SessionController : MonoBehaviour {
         
     }
 
-    public void AddUserToSession(User user) {
-        List<User> users = session.GetUsersInSession();
-        users.Add(user);
-    }
+    // public void AddUserToSession(User user) {
+    //     List<User> users = session.GetUsersInSession();
+    //     users.Add(user);
+    // }
 
-    public void RemoveUserFromSession(User user) {
-        List<User> users = session.GetUsersInSession();
-        users.Remove(user);
-    }
+    // public void RemoveUserFromSession(User user) {
+    //     List<User> users = session.GetUsersInSession();
+    //     users.Remove(user);
+    // }
 
-    public int GetUserSessionCount() {
-        List<User> users = session.GetUsersInSession();
-        return users.Count();
-    }
+    // public int GetUserSessionCount() {
+    //     List<User> users = session.GetUsersInSession();
+    //     return users.Count();
+    // }
 
-    public void ClearAllUsersFromSession() {
-        List<User> users = session.GetUsersInSession();
-        users.Clear();
-    }
+    // public void ClearAllUsersFromSession() {
+    //     List<User> users = session.GetUsersInSession();
+    //     users.Clear();
+    // }
 }

@@ -4,31 +4,31 @@ using UnityEngine;
 
 
 public class Flute : Instrument, InstrumentInterface {
-    void MoveUpAnOctave() {
+    void InstrumentInterface.MoveUpAnOctave() {
 
     }
-    void MoveDownAnOctave() {
+    void InstrumentInterface.MoveDownAnOctave() {
 
     }
-    void PlayAChord() {
+    void InstrumentInterface.PlayAChord() {
 
     }
-    void PlayBChord() {
+    void InstrumentInterface.PlayBChord() {
         
     }
-    void PlayCChord() {
+    void InstrumentInterface.PlayCChord() {
 
     }
-    void PlayDChord() {
+    void InstrumentInterface.PlayDChord() {
         
     }
-    void PlayEChord() {
+    void InstrumentInterface.PlayEChord() {
 
     }
-    void PlayFChord() {
+    void InstrumentInterface.PlayFChord() {
 
     }
-    void PlayGChord() {
+    void InstrumentInterface.PlayGChord() {
         
     }
 }

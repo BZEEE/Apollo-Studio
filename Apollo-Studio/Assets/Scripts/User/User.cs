@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class User : MonoBehaviour {
-    private AudioListener audioListener;
+    private ApolloAudioListener audioListener;
 
     // User constructor
     public User() {

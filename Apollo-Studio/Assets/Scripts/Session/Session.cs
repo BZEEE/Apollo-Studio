@@ -16,9 +16,9 @@ public class Session : MonoBehaviour {
         
     }
 
-    public User GetUsersInSession() {
-        return users;
-    }
+    // public User GetUsersInSession() {
+    //     return users;
+    // }
 }
 
 
