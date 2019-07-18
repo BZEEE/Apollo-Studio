@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using InstrumentNS;
-using InstrumentInterfaceNS;
-
 public class Trumpet : Instrument, InstrumentInterface {
     void MoveUpAnOctave() {
 

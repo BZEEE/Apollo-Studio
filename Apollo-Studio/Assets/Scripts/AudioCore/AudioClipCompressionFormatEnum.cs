@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AudioClipCompressionFormatEnumNS {
-    public enum AudioClipCompressionFormatEnum {
-        PCM,
-        ADPCM,
-        Vorbis
-    }
+public enum AudioClipCompressionFormatEnum {
+    PCM,
+    ADPCM,
+    Vorbis
 }

@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ApolloAudioMixerNS {
-    public class ApolloAudioMixer {
-    
-    }
+public class ApolloAudioMixer {
+
 }
 

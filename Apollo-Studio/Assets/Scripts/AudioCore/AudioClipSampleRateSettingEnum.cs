@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AudioClipSampleRateSettingEnumNS {
-    public enum AudioClipSampleRateSettingEnum {
-        PreserveSampleRate,
-        OptimizeSampleRate,
-        OverrideSampleRate
-    }
+public enum AudioClipSampleRateSettingEnum {
+    PreserveSampleRate,
+    OptimizeSampleRate,
+    OverrideSampleRate
 }

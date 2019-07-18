@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using InstrumentNS;
-using InstrumentInterfaceNS;
-
 public class Bass : Instrument, InstrumentInterface {
     void MoveUpAnOctave() {
 

@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using InstrumentNS;
-using InstrumentInterfaceNS;
-
 public class Piano : Instrument, InstrumentInterface {
     void MoveUpAnOctave() {
 

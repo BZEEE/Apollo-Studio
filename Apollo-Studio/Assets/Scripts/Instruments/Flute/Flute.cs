@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using InstrumentNS;
-using InstrumentInterfaceNS;
 
 public class Flute : Instrument, InstrumentInterface {
     void MoveUpAnOctave() {

@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using ApolloAudioListenerNS;
-
 public class User : MonoBehaviour {
     private AudioListener audioListener;
 

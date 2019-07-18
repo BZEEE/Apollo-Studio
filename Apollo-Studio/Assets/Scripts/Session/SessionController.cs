@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using SessionNS;
-
 public class SessionController : MonoBehaviour {
     public Session session;
     // Start is called before the first frame update
