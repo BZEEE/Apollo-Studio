@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// TODO: where to store this file?? Ask Brandon
-public class Sphere : MonoBehaviour
+// TODO: isolate this script to test separately
+public class genericNode : MonoBehaviour
 {
+    public GameObject Sphere;
+
     // Start is called before the first frame update
     void Start()
     {
-        return 0;
+        // initialize the sphere GameObject
+        Instantiate(Sphere);
     }
 
     // Update is called once per frame
@@ -21,7 +24,7 @@ public class Sphere : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                //Select Stage (node GameObject)
+                // Select Stage (node GameObject)
                 if (hit.transform.name == "Sphere")
                 {
                     // play sound 1 
