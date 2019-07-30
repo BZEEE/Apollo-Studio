@@ -2,15 +2,10 @@
 //using System.Collections.Generic;
 //using UnityEngine;
 
-<<<<<<< HEAD
-public class Node : MonoBehaviour {
-    private ApolloAudioSource audioSource;
-=======
 //using ApolloAudioSourceNS;
 
 //public class Node : MonoBehaviour {
 //    private ApolloAudioSource audioSource;
->>>>>>> PHASE1
    
 //    // Node Constructor
 //    public Node() {
